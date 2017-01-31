@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2CFE2021E412340007C8894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2011E412340007C8894 /* AppDelegate.swift */; };
+		C2CFE2041E412340007C8894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2031E412340007C8894 /* ViewController.swift */; };
+		C2CFE2071E412340007C8894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CFE2051E412340007C8894 /* Main.storyboard */; };
+		C2CFE2091E412340007C8894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CFE2081E412340007C8894 /* Assets.xcassets */; };
+		C2CFE20C1E412340007C8894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CFE20A1E412340007C8894 /* LaunchScreen.storyboard */; };
+		C2CFE2171E412340007C8894 /* StockWatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2161E412340007C8894 /* StockWatcherTests.swift */; };
+		C2CFE2221E412340007C8894 /* StockWatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2211E412340007C8894 /* StockWatcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2CFE2131E412340007C8894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2CFE1F61E412340007C8894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2CFE1FD1E412340007C8894;
+			remoteInfo = StockWatcher;
+		};
+		C2CFE21E1E412340007C8894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2CFE1F61E412340007C8894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2CFE1FD1E412340007C8894;
+			remoteInfo = StockWatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2CFE1FE1E412340007C8894 /* StockWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CFE2011E412340007C8894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2CFE2031E412340007C8894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2CFE2061E412340007C8894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2CFE2081E412340007C8894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2CFE20B1E412340007C8894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2CFE20D1E412340007C8894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CFE2121E412340007C8894 /* StockWatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockWatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CFE2161E412340007C8894 /* StockWatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWatcherTests.swift; sourceTree = "<group>"; };
+		C2CFE2181E412340007C8894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CFE21D1E412340007C8894 /* StockWatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockWatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CFE2211E412340007C8894 /* StockWatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWatcherUITests.swift; sourceTree = "<group>"; };
+		C2CFE2231E412340007C8894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2CFE1FB1E412340007C8894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CFE20F1E412340007C8894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CFE21A1E412340007C8894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2CFE1F51E412340007C8894 = {
+			isa = PBXGroup;
+			children = (
+				C2CFE2001E412340007C8894 /* StockWatcher */,
+				C2CFE2151E412340007C8894 /* StockWatcherTests */,
+				C2CFE2201E412340007C8894 /* StockWatcherUITests */,
+				C2CFE1FF1E412340007C8894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2CFE1FF1E412340007C8894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFE1FE1E412340007C8894 /* StockWatcher.app */,
+				C2CFE2121E412340007C8894 /* StockWatcherTests.xctest */,
+				C2CFE21D1E412340007C8894 /* StockWatcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2CFE2001E412340007C8894 /* StockWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFE2011E412340007C8894 /* AppDelegate.swift */,
+				C2CFE2031E412340007C8894 /* ViewController.swift */,
+				C2CFE2051E412340007C8894 /* Main.storyboard */,
+				C2CFE2081E412340007C8894 /* Assets.xcassets */,
+				C2CFE20A1E412340007C8894 /* LaunchScreen.storyboard */,
+				C2CFE20D1E412340007C8894 /* Info.plist */,
+			);
+			path = StockWatcher;
+			sourceTree = "<group>";
+		};
+		C2CFE2151E412340007C8894 /* StockWatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFE2161E412340007C8894 /* StockWatcherTests.swift */,
+				C2CFE2181E412340007C8894 /* Info.plist */,
+			);
+			path = StockWatcherTests;
+			sourceTree = "<group>";
+		};
+		C2CFE2201E412340007C8894 /* StockWatcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFE2211E412340007C8894 /* StockWatcherUITests.swift */,
+				C2CFE2231E412340007C8894 /* Info.plist */,
+			);
+			path = StockWatcherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2CFE1FD1E412340007C8894 /* StockWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CFE2261E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcher" */;
+			buildPhases = (
+				C2CFE1FA1E412340007C8894 /* Sources */,
+				C2CFE1FB1E412340007C8894 /* Frameworks */,
+				C2CFE1FC1E412340007C8894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockWatcher;
+			productName = StockWatcher;
+			productReference = C2CFE1FE1E412340007C8894 /* StockWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2CFE2111E412340007C8894 /* StockWatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CFE2291E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcherTests" */;
+			buildPhases = (
+				C2CFE20E1E412340007C8894 /* Sources */,
+				C2CFE20F1E412340007C8894 /* Frameworks */,
+				C2CFE2101E412340007C8894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2CFE2141E412340007C8894 /* PBXTargetDependency */,
+			);
+			name = StockWatcherTests;
+			productName = StockWatcherTests;
+			productReference = C2CFE2121E412340007C8894 /* StockWatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2CFE21C1E412340007C8894 /* StockWatcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CFE22C1E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcherUITests" */;
+			buildPhases = (
+				C2CFE2191E412340007C8894 /* Sources */,
+				C2CFE21A1E412340007C8894 /* Frameworks */,
+				C2CFE21B1E412340007C8894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2CFE21F1E412340007C8894 /* PBXTargetDependency */,
+			);
+			name = StockWatcherUITests;
+			productName = StockWatcherUITests;
+			productReference = C2CFE21D1E412340007C8894 /* StockWatcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2CFE1F61E412340007C8894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					C2CFE1FD1E412340007C8894 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C2CFE2111E412340007C8894 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2CFE1FD1E412340007C8894;
+					};
+					C2CFE21C1E412340007C8894 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2CFE1FD1E412340007C8894;
+					};
+				};
+			};
+			buildConfigurationList = C2CFE1F91E412340007C8894 /* Build configuration list for PBXProject "StockWatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2CFE1F51E412340007C8894;
+			productRefGroup = C2CFE1FF1E412340007C8894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2CFE1FD1E412340007C8894 /* StockWatcher */,
+				C2CFE2111E412340007C8894 /* StockWatcherTests */,
+				C2CFE21C1E412340007C8894 /* StockWatcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2CFE1FC1E412340007C8894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CFE20C1E412340007C8894 /* LaunchScreen.storyboard in Resources */,
+				C2CFE2091E412340007C8894 /* Assets.xcassets in Resources */,
+				C2CFE2071E412340007C8894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CFE2101E412340007C8894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CFE21B1E412340007C8894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2CFE1FA1E412340007C8894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CFE2041E412340007C8894 /* ViewController.swift in Sources */,
+				C2CFE2021E412340007C8894 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CFE20E1E412340007C8894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CFE2171E412340007C8894 /* StockWatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CFE2191E412340007C8894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CFE2221E412340007C8894 /* StockWatcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2CFE2141E412340007C8894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2CFE1FD1E412340007C8894 /* StockWatcher */;
+			targetProxy = C2CFE2131E412340007C8894 /* PBXContainerItemProxy */;
+		};
+		C2CFE21F1E412340007C8894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2CFE1FD1E412340007C8894 /* StockWatcher */;
+			targetProxy = C2CFE21E1E412340007C8894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2CFE2051E412340007C8894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2CFE2061E412340007C8894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2CFE20A1E412340007C8894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2CFE20B1E412340007C8894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2CFE2241E412340007C8894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2CFE2251E412340007C8894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2CFE2271E412340007C8894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StockWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipclapper.StockWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2CFE2281E412340007C8894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StockWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipclapper.StockWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2CFE22A1E412340007C8894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StockWatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipclapper.StockWatcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockWatcher.app/StockWatcher";
+			};
+			name = Debug;
+		};
+		C2CFE22B1E412340007C8894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StockWatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipclapper.StockWatcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockWatcher.app/StockWatcher";
+			};
+			name = Release;
+		};
+		C2CFE22D1E412340007C8894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StockWatcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipclapper.StockWatcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StockWatcher;
+			};
+			name = Debug;
+		};
+		C2CFE22E1E412340007C8894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StockWatcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.philipclapper.StockWatcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StockWatcher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2CFE1F91E412340007C8894 /* Build configuration list for PBXProject "StockWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CFE2241E412340007C8894 /* Debug */,
+				C2CFE2251E412340007C8894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CFE2261E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CFE2271E412340007C8894 /* Debug */,
+				C2CFE2281E412340007C8894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2CFE2291E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CFE22A1E412340007C8894 /* Debug */,
+				C2CFE22B1E412340007C8894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2CFE22C1E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CFE22D1E412340007C8894 /* Debug */,
+				C2CFE22E1E412340007C8894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2CFE1F61E412340007C8894 /* Project object */;
+}
