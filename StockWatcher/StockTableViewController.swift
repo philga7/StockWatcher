@@ -20,9 +20,14 @@ class StockTableViewController: UITableViewController {
         // Use the edit button item provided by the table view controller
         navigationItem.leftBarButtonItem = editButtonItem
         
-        // Load the sample data
-        loadSampleStocks()
-
+        // Load any saved stocks, otherwise load sample data
+        if let savedStocks = loadStocks() {
+            stocks += savedStocks
+        } else {
+            // Load the sample data
+            loadSampleStocks()
+        }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -77,6 +82,7 @@ class StockTableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             stocks.remove(at: indexPath.row)
+            saveStocks()
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -151,6 +157,9 @@ class StockTableViewController: UITableViewController {
                 stocks.append(stock)
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
             }
+            
+            // Save the stocks.
+            saveStocks()
         }
     }
     
@@ -175,4 +184,19 @@ class StockTableViewController: UITableViewController {
         stocks += [stock1, stock2, stock3]
     }
     
+    private func saveStocks() {
+        
+        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(stocks, toFile: Stock.ArchiveURL.path)
+        
+        if isSuccessfulSave {
+            os_log("Stocks successfully saved.", log: OSLog.default, type: .debug)
+        } else {
+            os_log("Failed to save stocks...", log: OSLog.default, type: .debug)
+        }
+    }
+    
+    private func loadStocks() -> [Stock]? {
+        
+        return NSKeyedUnarchiver.unarchiveObject(withFile: Stock.ArchiveURL.path) as? [Stock]
+    }
 }
