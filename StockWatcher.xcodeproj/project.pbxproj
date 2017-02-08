@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21C7E2C1E4AB1C60024474E /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C7E2B1E4AB1C60024474E /* StockTableViewCell.swift */; };
+		C2B1515C1E4AB78A00D682D8 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B1515A1E4AB78A00D682D8 /* StockTableViewController.swift */; };
+		C2B1515D1E4AB78A00D682D8 /* StockTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B1515B1E4AB78A00D682D8 /* StockTableViewController.xib */; };
 		C2CFE2021E412340007C8894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2011E412340007C8894 /* AppDelegate.swift */; };
-		C2CFE2041E412340007C8894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2031E412340007C8894 /* ViewController.swift */; };
 		C2CFE2071E412340007C8894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CFE2051E412340007C8894 /* Main.storyboard */; };
 		C2CFE2091E412340007C8894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CFE2081E412340007C8894 /* Assets.xcassets */; };
 		C2CFE20C1E412340007C8894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CFE20A1E412340007C8894 /* LaunchScreen.storyboard */; };
 		C2CFE2171E412340007C8894 /* StockWatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2161E412340007C8894 /* StockWatcherTests.swift */; };
 		C2CFE2221E412340007C8894 /* StockWatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2211E412340007C8894 /* StockWatcherUITests.swift */; };
+		C2F5D4DE1E44F0BE009824F1 /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D4DD1E44F0BE009824F1 /* StocksViewController.swift */; };
+		C2F5D4E01E44F4BB009824F1 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D4DF1E44F4BB009824F1 /* Stock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C21C7E2B1E4AB1C60024474E /* StockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		C2B1515A1E4AB78A00D682D8 /* StockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
+		C2B1515B1E4AB78A00D682D8 /* StockTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StockTableViewController.xib; sourceTree = "<group>"; };
 		C2CFE1FE1E412340007C8894 /* StockWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CFE2011E412340007C8894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2CFE2031E412340007C8894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2CFE2061E412340007C8894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2CFE2081E412340007C8894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CFE20B1E412340007C8894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		C2CFE21D1E412340007C8894 /* StockWatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockWatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CFE2211E412340007C8894 /* StockWatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockWatcherUITests.swift; sourceTree = "<group>"; };
 		C2CFE2231E412340007C8894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F5D4DD1E44F0BE009824F1 /* StocksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
+		C2F5D4DF1E44F4BB009824F1 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				C2CFE2011E412340007C8894 /* AppDelegate.swift */,
-				C2CFE2031E412340007C8894 /* ViewController.swift */,
+				C2F5D4DD1E44F0BE009824F1 /* StocksViewController.swift */,
+				C2B1515A1E4AB78A00D682D8 /* StockTableViewController.swift */,
+				C2B1515B1E4AB78A00D682D8 /* StockTableViewController.xib */,
+				C21C7E2B1E4AB1C60024474E /* StockTableViewCell.swift */,
+				C2F5D4DF1E44F4BB009824F1 /* Stock.swift */,
 				C2CFE2051E412340007C8894 /* Main.storyboard */,
 				C2CFE2081E412340007C8894 /* Assets.xcassets */,
 				C2CFE20A1E412340007C8894 /* LaunchScreen.storyboard */,
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B1515D1E4AB78A00D682D8 /* StockTableViewController.xib in Resources */,
 				C2CFE20C1E412340007C8894 /* LaunchScreen.storyboard in Resources */,
 				C2CFE2091E412340007C8894 /* Assets.xcassets in Resources */,
 				C2CFE2071E412340007C8894 /* Main.storyboard in Resources */,
@@ -258,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CFE2041E412340007C8894 /* ViewController.swift in Sources */,
+				C2F5D4DE1E44F0BE009824F1 /* StocksViewController.swift in Sources */,
 				C2CFE2021E412340007C8894 /* AppDelegate.swift in Sources */,
+				C21C7E2C1E4AB1C60024474E /* StockTableViewCell.swift in Sources */,
+				C2B1515C1E4AB78A00D682D8 /* StockTableViewController.swift in Sources */,
+				C2F5D4E01E44F4BB009824F1 /* Stock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +520,7 @@
 				C2CFE2281E412340007C8894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2CFE2291E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +529,7 @@
 				C2CFE22B1E412340007C8894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2CFE22C1E412340007C8894 /* Build configuration list for PBXNativeTarget "StockWatcherUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +538,7 @@
 				C2CFE22E1E412340007C8894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
