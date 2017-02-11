@@ -6,6 +6,9 @@ target 'StockWatcher' do
   use_frameworks!
 
   # Pods for StockWatcher
+  pod 'Alamofire', '~> 4.3'
+
+  pod 'BigBoard'
 
   target 'StockWatcherTests' do
     inherit! :search_paths

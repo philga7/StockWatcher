@@ -11,6 +11,11 @@
 		20E1EB99DE496E271FCF30AD /* Pods_StockWatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494DADB8591B41BE20BA856E /* Pods_StockWatcher.framework */; };
 		67A912B555D90A2859539FCA /* Pods_StockWatcherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66294E925E0BA23BCA032271 /* Pods_StockWatcherTests.framework */; };
 		C21C7E2C1E4AB1C60024474E /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C7E2B1E4AB1C60024474E /* StockTableViewCell.swift */; };
+		C230B5F91E4E77FF003A6157 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230B5F51E4E77FF003A6157 /* AlamofireImage.framework */; };
+		C230B5FA1E4E77FF003A6157 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230B5F61E4E77FF003A6157 /* AlamofireObjectMapper.framework */; };
+		C230B5FB1E4E77FF003A6157 /* BigBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230B5F71E4E77FF003A6157 /* BigBoard.framework */; };
+		C230B5FC1E4E77FF003A6157 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C230B5F81E4E77FF003A6157 /* ObjectMapper.framework */; };
+		C2827B351E4E1E90006959B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2827B341E4E1E90006959B1 /* Alamofire.framework */; };
 		C2B1515C1E4AB78A00D682D8 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B1515A1E4AB78A00D682D8 /* StockTableViewController.swift */; };
 		C2B1515D1E4AB78A00D682D8 /* StockTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B1515B1E4AB78A00D682D8 /* StockTableViewController.xib */; };
 		C2CFE2021E412340007C8894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFE2011E412340007C8894 /* AppDelegate.swift */; };
@@ -47,6 +52,11 @@
 		66294E925E0BA23BCA032271 /* Pods_StockWatcherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockWatcherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AFFFC156B866AE1A68A746 /* Pods-StockWatcherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockWatcherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockWatcherUITests/Pods-StockWatcherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C7E2B1E4AB1C60024474E /* StockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		C230B5F51E4E77FF003A6157 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../../../Developer/Xcode/DerivedData/StockWatcher-blnhvdbtdxwhqufjwvgvvdooqjvh/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		C230B5F61E4E77FF003A6157 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = "../../../../Developer/Xcode/DerivedData/StockWatcher-blnhvdbtdxwhqufjwvgvvdooqjvh/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework"; sourceTree = "<group>"; };
+		C230B5F71E4E77FF003A6157 /* BigBoard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigBoard.framework; path = "../../../../Developer/Xcode/DerivedData/StockWatcher-blnhvdbtdxwhqufjwvgvvdooqjvh/Build/Products/Debug-iphonesimulator/BigBoard/BigBoard.framework"; sourceTree = "<group>"; };
+		C230B5F81E4E77FF003A6157 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../../Developer/Xcode/DerivedData/StockWatcher-blnhvdbtdxwhqufjwvgvvdooqjvh/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
+		C2827B341E4E1E90006959B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Developer/Xcode/DerivedData/StockWatcher-blnhvdbtdxwhqufjwvgvvdooqjvh/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		C2B1515A1E4AB78A00D682D8 /* StockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
 		C2B1515B1E4AB78A00D682D8 /* StockTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StockTableViewController.xib; sourceTree = "<group>"; };
 		C2CFE1FE1E412340007C8894 /* StockWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C230B5F91E4E77FF003A6157 /* AlamofireImage.framework in Frameworks */,
+				C230B5FA1E4E77FF003A6157 /* AlamofireObjectMapper.framework in Frameworks */,
+				C230B5FB1E4E77FF003A6157 /* BigBoard.framework in Frameworks */,
+				C230B5FC1E4E77FF003A6157 /* ObjectMapper.framework in Frameworks */,
+				C2827B351E4E1E90006959B1 /* Alamofire.framework in Frameworks */,
 				20E1EB99DE496E271FCF30AD /* Pods_StockWatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +209,11 @@
 		E61922372D6FE56FACB95DC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C230B5F51E4E77FF003A6157 /* AlamofireImage.framework */,
+				C230B5F61E4E77FF003A6157 /* AlamofireObjectMapper.framework */,
+				C230B5F71E4E77FF003A6157 /* BigBoard.framework */,
+				C230B5F81E4E77FF003A6157 /* ObjectMapper.framework */,
+				C2827B341E4E1E90006959B1 /* Alamofire.framework */,
 				494DADB8591B41BE20BA856E /* Pods_StockWatcher.framework */,
 				66294E925E0BA23BCA032271 /* Pods_StockWatcherTests.framework */,
 				D1787073CE41641A04532E90 /* Pods_StockWatcherUITests.framework */,
